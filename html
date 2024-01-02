@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66370ff4c9.js" crossorigin="anonymous"></script>
+
+    <style>
+        #header {
+            background-color: #adedb8;
+            height: 100px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Hubballi', sans-serif;
+            
+        }
+        #nameAndTitle {
+            background-color: white;
+            width: 500px;
+            height: 100px;
+            margin: 0 auto;
+            text-align: center;
+
+        }
+        #nameAndTitle h1, h2, {
+            margin: 0; 
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+        }
+        #contact {
+            list-style-type: none;
+        }
+
+        #contact i {
+            width: 30px;
+            color: #adedb8;
+        }
+        #container {
+            display: grid;
+            grid-template-columns: 30% auto;
+            grid-column-gap: 20px;
+        }
+        #sidebar, #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        .card h3 {
+            font-family: 'Hubballi', sans-serif;
+        }
+        .card {
+            font-family: Montserrat; 
+            border: 1px solid rgb(228, 226, 226);
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nameAndTitle">
+            <h1>Giulia Dias</h1>
+            <h2>Project Manager</h2>
+        </div>
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <div class="card">
+                <h3>Contato</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i> dias.bgiulia2@gmail.com</li>
+                    <li><i class="fa-solid fa-mobile-screen"></i> (31) 9 9388 0023</li>
+                    <li><i class="fa-solid fa-location-dot"></i> São Bernardo do Campo</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Inglês fluente, espanhol intermediário</li>
+                    <li>PowerBi, looker studio, metabase</li>
+                    <li>Excel, google sheets</li>
+                    <li>Python, SQL</li>
+                    <li>HTML, CSS</li>
+                    <li>Figma</li>
+                    <li>Scrum</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Formação Acadêmica</h3>
+                <ul>
+                    <li>Formação em Produto - Escola DNC </li>
+                    <li>Engenharia Química - PUC Minas</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Links</h3>
+                <ul>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/giulia-dias-884b3816a">Linkedin</a></li>
+                    <li><a target="_blank" href="https://www.github.com/Giulia-Dias">Github</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div class="card">
+                <h3>Sobre Mim</h3>
+                <p>
+                    Engenheira com vasta experiência profissional em gestão de desenvolvimento de produto utilizando metodologias ágeis e soft skills para promover integração.   
+                </p>
+            </div>
+            <div class="card">
+                <h3>Experiências Profissionais</h3>
+                <p>
+                   <b>Project Performance Manager Abr/23 - Atual</b><br>
+                   <b>Step Engenharia</b><br>
+                    Elaboração e gestão do plano de testes envolvidos no
+                    desenvolvimento de novos produtos Stellantis para validação
+                    de performances de durabilidade, estanqueidade
+                    e comportamento de emissões após o envelhecimento.
+                </p>
+                <p>
+                    <b>Integration Test Plan Manager Jul/20 - Abr/23 </b><br>
+                    <b>Step Engenharia</b><br>
+                    Gestão e integração de todos os testes realizados em
+                    áreas distintas envolvidas no desenvolvimento de novos
+                    produtos Stellantis. Diminui a frota de veículos do testes
+                    do projeto fastback em 15% e do projeto rampage em 25%.
+                </p>
+                <p>
+                    <b>CS/SDR Ago/18 - Ago/19</b><br>
+                    <b>SolarVolt Energia</b><br>
+                    Atendimento de sucesso do cliente, integração entre
+                    cliente e time técnico. Desenvolvi modelo de relatório de
+                    geração de energia com disparo mensal que diminuiu as
+                    ligações de clientes com reclamações e dúvidas em 65%.
+                    Utilizei sw de funil de vendas para encaminhar somente
+                    leads mais quentes para o comercial e diminuir 3x o
+                    tempo de negociação e aumentar 58% a conversão.
+                </p>
+            </div>           
+        
+
+    </div>
+</body>
+</html>
